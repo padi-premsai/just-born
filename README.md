@@ -1,27 +1,44 @@
-# JustBorn
+# 🛒 Just Born - Kids Shopping Web App (Frontend)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+**Just Born** is a responsive e-commerce platform designed for infants and kids (1 month to 5 years). It allows parents to browse and purchase products like clothes, toys, and medical essentials.
 
-## Development server
+> 🔗 **Backend Code Available at:** [Just Born Backend (Spring Boot)](https://github.com/padi-premsai/just-born-backend)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🛠 Tech Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend:** Angular 14  
+- **Backend:** Java, Spring Boot  
+- **Database:** MySQL  
+- **API Format:** RESTful JSON  
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🎯 Features
 
-## Running unit tests
+- Browse categories: clothes, toys, medical supplies
+- Add products to cart and manage orders
+- Product listing, details, and filtering
+- Admin panel for managing inventory (optional)
+- Fully responsive UI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🚀 Getting Started
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### ✅ Prerequisites
 
-## Further help
+- Node.js and Angular CLI  
+- Java JDK 11+  
+- MySQL Server
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+### 💻 Frontend Setup
+
+```bash
+git clone https://github.com/padi-premsai/just-born.git
+cd just-born
+npm install
+ng serve
